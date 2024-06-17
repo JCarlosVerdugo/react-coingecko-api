@@ -1,9 +1,6 @@
 import React from 'react'
 
 const CoinRow = ({ coin, index }) => {
-
-    console.log(coin)
-
     return (
         <tr>
             <td>{ index }</td>
