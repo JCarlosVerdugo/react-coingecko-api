@@ -22,8 +22,8 @@ const TableCoins = ({ coins, search }) => {
             <thead>
                 <tr>
                     {
-                        titles.map((title) => (
-                            <td>{ title }</td>
+                        titles.map((title, index) => (
+                            <td key={index}>{ title }</td>
                         ))
                     }
                 </tr>
